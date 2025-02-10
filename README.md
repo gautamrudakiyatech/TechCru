@@ -74,7 +74,7 @@ Follow the steps below to set up and run the app:
 ## **Usage**
 
 1. **Launch the app** on your Android device or emulator.
-2. The main screen displays a **list of the latest news articles** fetched from Mashable India.
+2. The main screen displays a **list of the latest news articles** fetched from TechCrunch.
 3. Tap on any article to open a **detailed view**.
 4. Use the **menu** or **tabs** (implemented with Fragments) to explore different categories of news.
 5. The **shimmer effect** will appear while the app loads articles and images.
