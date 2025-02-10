@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TechCru" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        View decor = getWindow().getDecorView();
+        decor.setSystemUiVisibility(0);
+    </style>
+
+    <style name="Theme.TechCru" parent="Base.Theme.TechCru" />
+
+    <style name="activity1" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#000000</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">#46000000</item>
+    </style>
+
+    <style name="main" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#000000</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">#ffffff</item>
+    </style>
+
+    <style name="activity2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#000000</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">#ffffff</item>
+    </style>
+
+    <style name="activity3" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#ffffff</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">#46000000</item>
+    </style>
+
+    <style name="error" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor" tools:targetApi="m">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorEdgeEffect" >#46000000</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">0sp</item>
+    </style>
+
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#26C6DA</item>
+    </style>
+
+
+</resources>

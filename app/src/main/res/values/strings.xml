@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TechCru</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="december_03_2023">December 03, 2023</string>
+    <string name="categories">Categories</string>
+    <string name="next">NEXT</string>
+    <string name="daily_update">Daily Update</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="talknewz">NewzBeat</string>
+
+    <string name="facebook_app_id">a6656f0a726cfd</string>
+    <string name="facebook_client_token">8ba8152d1767f175792be300478f3406</string>
+    <string name="APP_ID">a6656f0a726cfd</string>
+    <string name="APP_KEY">a3399d82e8974e32e0da564a62d971450</string>
+
+</resources>

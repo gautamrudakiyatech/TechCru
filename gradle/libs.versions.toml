@@ -1,0 +1,62 @@
+[versions]
+adapterFacebook = "6.2.98"
+agp = "8.4.0"
+androidGifDrawable = "1.2.28"
+annotation = "1.0.0"
+appcompatVersion = "1.1.0"
+browser = "1.4.0"
+circleimageview = "3.1.0"
+glide = "4.15.0"
+compiler = "4.15.0"
+interstitial = "6.2.98"
+core = "6.2.98"
+audienceNetworkSdk = "6.16.0"
+facebookApplinks = "14.0.0"
+jsoup = "1.12.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+lottie = "6.4.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+recyclerview = "1.3.2"
+picasso = "2.8"
+sdpAndroid = "1.1.0"
+shimmer = "0.5.0"
+swiperefreshlayout = "1.1.0"
+viewpager2 = "1.1.0"
+
+[libraries]
+android-gif-drawable = { module = "pl.droidsonroids.gif:android-gif-drawable", version.ref = "androidGifDrawable" }
+annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+appcompat-v110 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+browser = { module = "androidx.browser:browser", version.ref = "browser" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+facebook-applinks = { module = "com.facebook.android:facebook-applinks", version.ref = "facebookApplinks" }
+audience-network-sdk = { module = "com.facebook.android:audience-network-sdk", version.ref = "audienceNetworkSdk" }
+core = { module = "com.anythink.sdk:core", version.ref = "core" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+interstitial = { module = "com.anythink.sdk:interstitial", version.ref = "interstitial" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+sdk-adapter-facebook = { module = "com.anythink.sdk:adapter-facebook", version.ref = "adapterFacebook" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
